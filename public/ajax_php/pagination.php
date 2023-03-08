@@ -1,5 +1,5 @@
 <?php
-    require_once("C:/xampp/htdocs/jbe-leave/private/initialize.php");
+    require_once("/opt/lampp/htdocs/jbe-leave/private/initialize.php");
     require_once(PROJECT_PATH . "/class/Employee.php");
     $requestPayload = file_get_contents("php://input");
 

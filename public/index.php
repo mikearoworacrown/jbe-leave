@@ -1,7 +1,7 @@
 <?php 
 // session_unset();
 // session_destroy();
-    require_once("C:/xampp/htdocs/jbe-leave/private/initialize.php");
+    require_once("/opt/lampp/htdocs/jbe-leave/private/initialize.php");
     $page_title = "Log in";
     include(SHARED_PATH . "/header.php");
 

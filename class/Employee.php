@@ -1,6 +1,6 @@
 <?php
 // echo $_SERVER['SCRIPT_FILENAME']; -- Absolute Path
-require_once("C:/xampp/htdocs/jbe-leave/class/DBController.php");
+require_once("/opt/lampp/htdocs/jbe-leave/class/DBController.php");
 
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require_once("C:/xampp/htdocs/jbe-leave/vendor/autoload.php");
+require_once("/opt/lampp/htdocs/jbe-leave/vendor/autoload.php");
 
 class Employee {
     private $db_handle;
